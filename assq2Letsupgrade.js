@@ -1,5 +1,4 @@
 // Program to convert minutes to seconds
 
-let min = 1200;
-let convert = (Number(min) * 60);
-console.log(`conversion of ${min} min in sec is equal to ${convert} sec`);
+let min = prompt('enter minutes');
+console.log(`conversion of ${min} min in sec is equal to ${Number(min) * 60} sec`);
