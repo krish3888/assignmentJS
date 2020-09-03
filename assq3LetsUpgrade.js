@@ -1,6 +1,6 @@
 // Program to search for a element in a array of strings
 
-let sentence = 'krishna shahi shahi singh shahi'.split(' ');
+let sentence = prompt("enter string array").split(' ');
 let search = 'shahi';
 let count=0; 
 sentence.forEach(function(match) {
