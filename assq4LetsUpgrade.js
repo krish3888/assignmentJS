@@ -1,6 +1,6 @@
 // Program to display only elements containing 'a' in them from a array
 
-let sentence = 'krisahna singh shahi from dehrdun uttarakhand India Earth'.split(' ');
+let sentence = prompt('enter sentence').split(' ');
 let search = 'a';
 let storeResult =new Array();
 let k = 0;
@@ -17,4 +17,4 @@ sentence.forEach(function(ele,indx){
         }
     });
 });
-console.log(`${storeResult}`); 
+console.log(`${storeResult}`);
